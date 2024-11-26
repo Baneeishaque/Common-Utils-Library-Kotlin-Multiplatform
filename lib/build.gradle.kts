@@ -63,7 +63,7 @@ kotlin {
             dependencies {
                 implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.9.0")
-                implementation(platform("io.ktor:ktor-bom:3.1.0-eap-1164"))
+                implementation(platform("io.ktor:ktor-bom:3.1.0-eap-1168"))
                 implementation("io.ktor:ktor-client-core")
                 implementation("io.ktor:ktor-client-auth")
                 implementation("io.ktor:ktor-client-content-negotiation")
