@@ -2,16 +2,15 @@ rootProject.name = "Common-Utils-Library-Kotlin-Multiplatform"
 include("lib")
 pluginManagement {
     repositories {
-        google()
         mavenCentral()
         maven {
             url = uri("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev")
         }
+        google()
     }
 }
 dependencyResolutionManagement {
     repositories {
-        google()
         mavenCentral()
         maven {
             url = uri("https://maven.pkg.jetbrains.space/kotlin/p/kotlin/dev")
@@ -19,6 +18,7 @@ dependencyResolutionManagement {
         maven {
             url = uri("https://maven.pkg.jetbrains.space/public/p/ktor/eap")
         }
+        google()
     }
 }
 enableFeaturePreview("STABLE_CONFIGURATION_CACHE")
